@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g CMakeFiles/LFSR.dir/main.cpp.o CMakeFiles/LFSR.dir/TestMatlab.cpp.o CMakeFiles/LFSR.dir/CAAdder.cpp.o -o LFSR   -L/home/alaallen/MATLAB/r2021a/extern/bin/glnxa64  -Wl,-rpath,/home/alaallen/MATLAB/r2021a/extern/bin/glnxa64 -lMatlabEngine -lMatlabDataArray -lpthread 

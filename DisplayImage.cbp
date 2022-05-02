@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="DisplayImage"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVTest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DisplayImage">
+				<Option output="/home/alaallen/Documents/course/github/OpenCVTest/DisplayImage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 DisplayImage"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="DisplayImage/fast">
+				<Option output="/home/alaallen/Documents/course/github/OpenCVTest/DisplayImage" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVTest"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 DisplayImage/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/alaallen/Documents/course/github/OpenCVTest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/DisplayImage.cpp">
+			<Option target="DisplayImage"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/GaussianBlurGen.h">
+			<Option target="DisplayImage"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/GaussianBlurSelf.h">
+			<Option target="DisplayImage"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/TileImage.h">
+			<Option target="DisplayImage"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVTest/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

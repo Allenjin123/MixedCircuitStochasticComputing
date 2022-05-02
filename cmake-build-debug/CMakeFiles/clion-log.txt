@@ -1,0 +1,4 @@
+/home/alaallen/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" /home/alaallen/Documents/course/github/OpenCVGaussianBlur
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/alaallen/Documents/course/github/OpenCVGaussianBlur

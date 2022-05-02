@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GaussianBlur"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVGaussianBlur"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVGaussianBlur"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVGaussianBlur"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GaussianBlur">
+				<Option output="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/GaussianBlur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVGaussianBlur"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 GaussianBlur"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GaussianBlur/fast">
+				<Option output="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/GaussianBlur" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/alaallen/Documents/course/github/OpenCVGaussianBlur"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/usr/local/include/opencv4"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/bin/../lib/gcc/x86_64-linux-gnu/9/../../../../include/c++/9/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/llvm-11/lib/clang/11.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 GaussianBlur/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/DisplayImage.cpp">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/GaussianBlurGen.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/GaussianBlurSelf.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Adder.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/BtoD.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/DeRandomizer.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Graph.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/LFSR.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Multiplier.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Number.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Operator.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Pareto.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/RNGSobol.cpp">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/RNGSobol.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Randomizer.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/RandomizerSobol.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Table.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/Transformer.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/TrueRandomizer.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/Graph/VoidTransformer.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/TileImage.h">
+			<Option target="GaussianBlur"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/../../../../../../usr/local/lib/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/alaallen/Documents/course/github/OpenCVGaussianBlur/../../../../../../usr/local/lib/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\lib\cmake\opencv4\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
